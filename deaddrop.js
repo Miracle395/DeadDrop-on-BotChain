@@ -3,9 +3,8 @@
 import {
   connectWallet as botConnectWallet,
   createDrop as botCreateDrop,
-  claimDrop as botClaimDrop,
-  hashContent,
-  verifyContentHash as botVerifyContentHash
+  readDrop as botClaimDrop,
+  hashContent
 } from './deaddrop-botchain.js';
 
 const SUPABASE_URL = 'https://xkpohkywptcoggdencwh.supabase.co';
