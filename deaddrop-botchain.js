@@ -28,10 +28,15 @@ const CONTRACT_ABI = [
 
 const BOT_CHAIN_MAINNET = {
   chainId: "0x2a5",
+  chainName: "BOT Chain Mainnet",
+  nativeCurrency: {
+    name: "BOT",
+    symbol: "BOT",
+    decimals: 18   // verify against BOT Chain's own docs if you have access — Chainlist doesn't list this
+  },
   rpcUrls: ["https://rpc.botchain.ai"],
   blockExplorerUrls: ["https://scan.botchain.ai"]
 };
-const BOT_CHAIN_MAINNET_ID = 677n;
 
 // ---------------------------------------------------------------------------
 // Wallet / network setup
