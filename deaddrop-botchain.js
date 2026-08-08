@@ -38,6 +38,8 @@ const BOT_CHAIN_MAINNET = {
   blockExplorerUrls: ["https://scan.botchain.ai"]
 };
 
+const BOT_CHAIN_MAINNET_ID = 677n;
+
 // ---------------------------------------------------------------------------
 // Wallet / network setup
 // ---------------------------------------------------------------------------
